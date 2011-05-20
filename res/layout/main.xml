@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent">
+    
+    <ImageView 	android:id="@+id/logot_image"
+   				android:src="@drawable/logo"
+   				android:layout_width="wrap_content"
+   				android:layout_height="wrap_content"
+   				android:layout_alignParentTop="true"/> 
+
+    <TextView android:id="@+id/title_b"
+              android:textStyle="bold"
+              android:text="@string/title_b"
+              android:textSize="24sp"
+              android:textColor="@color/green"
+              android:layout_marginBottom="12sp"
+              android:layout_marginRight="4sp"
+   			  android:layout_width="wrap_content"
+   			  android:layout_height="wrap_content" 
+              android:layout_alignParentRight="true"
+   			  android:layout_alignParentTop="true"/> 
+
+    <TextView android:id="@+id/title_s"
+              android:layout_alignParentRight="true"
+              android:textStyle="bold"
+              android:text="@string/title_s"
+              android:textSize="12sp"
+              android:textColor="@color/green"
+              android:layout_marginBottom="12sp"
+              android:layout_marginRight="4sp"
+   			  android:layout_width="wrap_content"
+   			  android:layout_height="wrap_content"
+              android:layout_below="@+id/title_b"/>
+              
+     <TextView android:id="@+id/welcome"
+              android:layout_centerHorizontal="true"
+              android:textStyle="bold"
+              android:text="@string/welcome"
+              android:textSize="16sp"
+              android:textColor="@color/white"
+              android:layout_marginBottom="4sp"
+              android:layout_marginLeft="4sp"
+              android:layout_marginRight="4sp"
+   			  android:layout_width="wrap_content"
+   		      android:layout_height="wrap_content"
+   		      android:layout_below="@+id/title_s" /> 
+   			  
+    <TextView android:id="@+id/start1"
+              android:layout_centerHorizontal="true"
+              android:text="@string/start1"
+              android:textSize="11sp"
+              android:textColor="@color/white"
+              android:layout_marginBottom="4sp"
+              android:layout_marginLeft="4sp"
+              android:layout_marginRight="4sp"
+   			  android:layout_width="wrap_content"
+   		      android:layout_height="wrap_content"
+   		      android:layout_below="@+id/welcome"
+   			  /> 
+  
+    <TextView android:id="@+id/start2"
+              android:layout_centerHorizontal="true"
+              android:text="@string/start2"
+              android:textSize="13sp"
+              android:textColor="@color/white"
+              android:layout_marginBottom="4sp"
+              android:layout_marginLeft="4sp"
+              android:layout_marginRight="4sp"
+   			  android:layout_width="wrap_content"
+   		      android:layout_height="wrap_content"
+   		      android:layout_below="@+id/start1"
+   			  />   
+    
+    <Button android:id="@+id/btnWizard"
+			android:text="Setup Wizard"
+            android:textSize="12sp"
+       	    android:layout_marginBottom="12sp"
+			android:textStyle="bold"
+			android:layout_height="40px"
+			android:layout_width="90px"
+ 			android:textColor="@color/button_txt"  		
+    		android:background="@drawable/button_shape" 
+    		android:layout_below="@+id/start2"
+    		android:layout_centerHorizontal="true"/> 
+    
+	<TextView android:id="@+id/warning"
+              android:layout_centerHorizontal="true"
+              android:textStyle="bold"
+              android:text="@string/warning"
+              android:textSize="10sp"
+              android:textColor="@color/red"
+   			  android:layout_width="wrap_content"
+   		      android:layout_height="wrap_content"
+   		      android:layout_below="@+id/btnWizard"
+   		      android:layout_alignParentBottom="true" /> 
+            
+    			
+</RelativeLayout>

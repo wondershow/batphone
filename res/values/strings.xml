@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Serval Application</string>
+    <string name="wizard">Setup Wizard</string>
+    <string name="title_b">Serval</string>
+    <string name="title_s">servalproject.org</string>
+    <string name="start1">Serval software is mesh network software designed for use where there is no existing infrastructure.</string>
+    <string name="start2">To configure your phone for first time use, please use the Setup Wizard.</string>
+    <string name="welcome">Welcome to the Serval Batphone.</string>
+    <string name="warning">EXPERIMENTAL SOFTWARE</string>
+    
+</resources>
